@@ -451,44 +451,44 @@ def saveTestToDB(self):
          "chapter": "10",
         "questions": [
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ function in the random module to shuffle the elements in a list.",
+                "answer":"shuffle"
             },
             {
-               "question":"",
-                "answer":""
+               "question":"You can use the _____ operators to compare the elements of two lists.",
+                "answer":"comparison"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use a _____ loop to travers all elements in a list.",
+                "answer":"for"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A list object is _____.  You can use the methods append, extend, insert, pop, and remove to add and remove elements to and from a list.",
+                "answer":"mutable"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ method to get the index of an element in a list.",
+                "answer":"index"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ method to sort elements in a list.",
+                "answer":"sort"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ method to reverse elements in a list.",
+                "answer":"reverse"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ method to split a string into a list.",
+                "answer":"split"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"When a function is invoked with a list arguement, the _____ of the list is passed to the function.",
+                "answer":"reference"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____-sort algorithm sorts a list of values by repeatedly inserting a new element into a sorted sublist until the whole list is sorted.",
+                "answer":"insertion"
             }
         ]
     },
@@ -496,44 +496,44 @@ def saveTestToDB(self):
          "chapter": "11",
         "questions": [
             {
-                "question":"",
-                "answer":""
+                "question":"A two dimensional list can be used to store two-dimensional data such as a table and a _____.",
+                "answer":"matrix"
             },
             {
-               "question":"",
-                "answer":""
+               "question":"A two-dimenional list is a list.  Each of its elements is a _____.",
+                "answer":"list"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"An element in a two-dimensional list can be accessed using the following syntax: _____[rowIndex][columnIndex].",
+                "answer":"listName"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use lists of list to form _____ lists.",
+                "answer":"multidimensional"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A two-dimensional list is a list that contains other lists as its _____.",
+                "answer":"elements"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A _____ is a list in which each element is another list",
+                "answer":"multidimensional"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A list that is contained within another list is considered a _____ list.",
+                "answer":"nested"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can apply the _____ method to sort a two-dimensional list.",
+                "answer":"sort"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A value in a two-dimensional list can be accessed through a _____ and clolumn index.",
+                "answer":"row"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"When passing a two-dimensional list to a function, the list's _____ is passed to the function.",
+                "answer":"reference"
             }
         ]
     },
@@ -541,44 +541,44 @@ def saveTestToDB(self):
          "chapter": "12",
         "questions": [
             {
-                "question":"",
+                "question":"A new class can be derived from an existing class.  This is known as class _____.",
+                "answer":"inheritance"
+            },
+            {
+               "question":"A new class that is derived from an existing class is called a _____, child class, or extended class.",
+                "answer":"subclass"
+            },
+            {
+                "question":"The existing class that a new class is derived from is called a _____, parent class, or base class",
                 "answer":""
             },
             {
-               "question":"",
-                "answer":""
+                "question":"To override a method, the method must be defined in the subclass using the same _____ as its superclass.",
+                "answer":"header"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The object class is the _____ class for all Python classes.",
+                "answer":"root"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"_____ means that an object of a subclass can be passed to a parameter of a superclass type.",
+                "answer":"Polymorphism"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____ function can be used to determine whether an object is an instance of a class.",
+                "answer":"isinstance"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The common _____ among classes are association, aggregation, composition, and inheritance.",
+                "answer":"relationships"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"_____ enables you to define a general class and later extend it to a more specialized class.",
+                "answer":"inheritance"
             },
             {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
+                "question":"A method may be implemented in serveral classes along the _____ chain.",
+                "answer":"inheritance"
             }
         ]
     },
