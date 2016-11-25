@@ -268,92 +268,47 @@ def saveTestToDB(self):
         ]
     },
     {
-        "chapter": "5",
-        "questions": [
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-               "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            },
-            {
-                "question":"",
-                "answer":""
-            }
-        ]
-    },
-    {
          "chapter": "6",
         "questions": [
             {
-                "question":"",
-                "answer":""
+                "question":"Making programs modular and reusable is one of the central goals in software engineering.  _____ can help to achieve this goal.",
+                "answer":"functions"
             },
             {
-               "question":"",
-                "answer":""
+               "question":"A function _____ begins with the def keyword followed by function's name and parameters, and ends with a colon.",
+                "answer":"header"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"Parameters are _____; that is, a function does not have to contain any parameters.",
+                "answer":"optional"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A function is called a _____ or None function if it does not return a value.",
+                "answer":"void"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A _____ statement can also be used in a void function for terminating the function and returning to the function's caller.",
+                "answer":"return"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____ that are passed to a function should have the same number, type, and order as the parameters in the function header.",
+                "answer":"arguements"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A function's arguements can be passed as positional arguements or _____ arguements.",
+                "answer":"keyword"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"_____ variables are created outside all functions and are accessible to all functions in their scope.",
+                "answer":"global"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"Function _____ is achieved by separating the use of a function from its implementation.",
+                "answer":"abstraction"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"Function abstraction _____ programs in a neat, hierarchical manner.",
+                "answer":"modularizes"
             }
         ]
     },
@@ -361,44 +316,44 @@ def saveTestToDB(self):
          "chapter": "7",
         "questions": [
             {
-                "question":"",
-                "answer":""
+                "question":"A _____ is a template, a blueprint, a contract, and a data type for objects.",
+                "answer":"class"
             },
             {
-               "question":"",
-                "answer":""
+               "question":"A class defines the properties of objects and provides an _____ for initializing objects and methods for manipulationg them.",
+                "answer":"initializer"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The intitializer is always named _____.",
+                "answer":"__init__"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The first parameter in each method including the initializer in the class refers to the object that calls the method. By convention, this parameter is named _____.",
+                "answer":"self"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"An object is an _____ of a class.",
+                "answer":"instance"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A _____ is used to create an object",
+                "answer":"constructor"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"A _____ is used to access members of an object through its reference variable.",
+                "answer":"dot operator"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"An _____ variable or method belongs to an instance of a class.",
+                "answer":"instance"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"_____ fields in classes should be hidden to prevent data tampering and to make classes easy to maintain.",
+                "answer":"data"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can provide a _____ method or a set method to enable clients to see or modify the data.",
+                "answer":"get"
             }
         ]
     },
@@ -406,44 +361,44 @@ def saveTestToDB(self):
          "chapter": "8",
         "questions": [
             {
-                "question":"",
-                "answer":""
+                "question":"A string is _____.  Its contents cannot be changed.",
+                "answer":"immutable"
             },
             {
-               "question":"",
-                "answer":""
+               "question":"You can use the _____ function to return the length of a string.",
+                "answer":"len"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ operator to reference an individual character in a string.",
+                "answer":"index"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ operator to duplicate strings.",
+                "answer":"repetition"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ operator to get a substring.",
+                "answer":"slicing"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____ operators can be used to compare two strings.",
+                "answer":"comparision"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use a _____ loop to iterate all characters in a string.",
+                "answer":"for"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can define special methods for overloading the _____.",
+                "answer":"operators"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"Strings are objects of the _____ class.",
+                "answer":"str"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____ function returns a string frp, the keyboard.",
+                "answer":"input"
             }
         ]
     },
@@ -451,44 +406,44 @@ def saveTestToDB(self):
          "chapter": "9",
         "questions": [
             {
-                "question":"",
-                "answer":""
+                "question":"To place a widget in a container, you have to specify its _____ manager.",
+                "answer":"geometry"
             },
             {
-               "question":"",
-                "answer":""
+               "question":"The _____ manager places widgets side by side or on top of eachother.",
+                "answer":"pack"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____ manager places widgets in grids.",
+                "answer":"grid"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____ manager places the widgets in absolute locations.",
+                "answer":"place"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"Many widgets have the command option for binding an event with a _____ function.  When an event occurs, this function is invoked.",
+                "answer":"callback"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"The _____ widget can be used to draw lines, rectagles, ovals, arcs, and polygons, and to display images and text strings.",
+                "answer":"canvas"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use the _____ class to create menu bars, menu items, and pop-up menus.",
+                "answer":"menu"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can bind mouse and key events to a widget with a _____ function.",
+                "answer":"callback"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use _____ to develop animations.",
+                "answer":"canvases"
             },
             {
-                "question":"",
-                "answer":""
+                "question":"You can use standard dialog boxes to display _____ and receive input",
+                "answer":"messages"
             }
         ]
     },
