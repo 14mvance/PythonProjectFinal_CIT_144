@@ -10,37 +10,6 @@ def takeTest():
     score = test.run()
     student.saveScore(chapter, score)
 
-name = input("What is your name")
-id = input("what is your id")
-student = Student(name, id)
-
-run = True
-while run:
-    choice = input("1: take test, 2: show scores, 3: quit")
-    if choice == "1":
-        takeTest()
-    elif choice == "2":
-        showScores()
-    elif choice == "3":
-        print("Thanks for testing!")
-        run = False
-        break
-    else:
-        print("invalid choice")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def saveTestToDB(self):
     data = [{
        "chapter": "1",
@@ -720,4 +689,39 @@ def saveTestToDB(self):
     {
     }]
     table = db.table('tests')
-    table.insert(data)
+    table.insert(data)   
+
+## saveTestToDB()  ## running this will put all questions and answers in the db.json file.  Only run the first time the program is ran then disable.
+## if you run into issues, clear the db.json file and try again.
+name = input("What is your name")
+id = input("what is your id")
+student = Student(name, id)
+
+run = True
+while run:
+    choice = input("1: take test, 2: show scores, 3: quit")
+    if choice == "1":
+        takeTest()
+    elif choice == "2":
+        showScores()
+    elif choice == "3":
+        print("Thanks for testing!")
+        run = False
+        break
+    else:
+        print("invalid choice")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
