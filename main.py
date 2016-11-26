@@ -1,9 +1,9 @@
 ## if you run into trouble, clear data in the db.json file
 from tinydb import TinyDB, where
 from tinydb.queries import Query
-from Test import Test
-from Student import Student
 
+from Student import Student
+from Test import Test
 
 def showScores():
     student.showAllScores()
