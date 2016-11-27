@@ -563,44 +563,44 @@ def saveTestToDB():
              "chapter": "13",
             "questions": [
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use _____ objects to read/write data from/to files.",
+                    "answer":"file"
                 },
                 {
-                   "question":"",
-                    "answer":""
+                   "question":"You can open a file to create a file object with the mode _____ for reading.",
+                    "answer":"r"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can open a file to create a file object with the mode _____ for writing.",
+                    "answer":"w"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can open a file to create a file object with the mode _____ for appending.",
+                    "answer":"a"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use the os.path._____(f) function to check if a file exists.",
+                    "answer":"isfile"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use the read(), readline(), and _____() methods to read data from a file.",
+                    "answer":"readlines"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use the _____(s) method to write a string to a file.",
+                    "answer":"write"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You should _____ the file after the file is processed to ensure that he data is saved properly.",
+                    "answer":"close"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use _____ handling to catch and handle runtime errors.",
+                    "answer":"exception"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use the Python _____ module to store objects in a file.",
+                    "answer":"pickle"
                 }
             ]
         },
@@ -608,44 +608,44 @@ def saveTestToDB():
              "chapter": "14",
             "questions": [
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"A tuple is a _____ list.",
+                    "answer":"fixed"
                 },
                 {
-                   "question":"",
-                    "answer":""
+                   "question":"You cannot add, delete, or replace elements in a _____.",
+                    "answer":"tuple"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"Since a tuple is a _____, the common operations for sequences can be used for tuples.",
+                    "answer":"sequence"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"A tuple is _____, if all its elements are immutable.",
+                    "answer":"immutable"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"_____ are like lists in that you use them for storing a collection of elements.",
+                    "answer":"sets"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can add an element to a set using the ______ method.",
+                    "answer":"add"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can remove an element from the set using the _____ method.",
+                    "answer":"remove"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use a ____ loop to traverse the elements in a set.",
+                    "answer":"for"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"A _____ can be used to store key/value pairs.",
+                    "answer":"dictionary"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"You can use the _____ function to return he number of items in a dictionary.",
+                    "answer":"len"
                 }
             ]
         },
@@ -653,44 +653,44 @@ def saveTestToDB():
              "chapter": "15",
             "questions": [
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"A _____ function is one that directly or indirectly invokes itself.",
+                    "answer":"recursive"
                 },
                 {
-                   "question":"",
-                    "answer":""
+                   "question":"For a recursive function to terminate, there must be one or more _____ cases.",
+                    "answer":"base"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"Recursion is an alternative form of program _____.",
+                    "answer":"control"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"Sometimes the original function needs to be modified o receive additional parameters in order to be invoked recursively.  A recursive _____ function can be defined for this purpose.",
+                    "answer":"helper"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"A recursive function is said to be tail recursive if there are no pending operations to be performed on return from a recursive _____.",
+                    "answer":"call"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"_____ recursion is efficient.",
+                    "answer":"tail"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"Recursion can be used to specify simple, clear solutions for inherently recursive problems that would otherwise be _____ to solve.",
+                    "answer":"difficult"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"Recursion bears substantial _____.",
+                    "answer":"overhead"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"Recursion is ideal for displaying fractals, because fractals are _____ recursive.",
+                    "answer":"inherently"
                 },
                 {
-                    "question":"",
-                    "answer":""
+                    "question":"A recursive functio is one that _____ itself.",
+                    "answer":"invokes"
                 }
             ]
         }]
